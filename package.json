@@ -1,0 +1,27 @@
+{
+  "name": "rust-actix-loan-api",
+  "version": "1.0.0",
+  "description": "REST API para gestión de préstamos con Rust y Actix Web",
+  "private": true,
+  "scripts": {
+    "build": "cargo build --release",
+    "dev": "cargo run",
+    "test": "cargo test",
+    "check": "cargo check"
+  },
+  "keywords": [
+    "rust",
+    "actix-web",
+    "rest-api",
+    "fintech",
+    "loan-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "notes": "Este proyecto utiliza Cargo como gestor de paquetes de Rust. El archivo Cargo.toml contiene las dependencias reales del proyecto. Este package.json existe para compatibilidad con herramientas npm que puedan requerirse en el entorno de desarrollo."
+}
